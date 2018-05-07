@@ -1,0 +1,24 @@
+.wrapper-table {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  > div:first-child {
+    flex: 1;
+  }
+
+  table {
+    thead tr > th:first-child {
+      display: none;
+    }
+
+    tbody tr > td:first-child {
+      display: none;
+    }
+  }
+
+  .search {
+    display: flex;
+    justify-content: center;
+  }
+}
